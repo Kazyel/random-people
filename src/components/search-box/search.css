@@ -1,0 +1,15 @@
+.search-box {
+  padding: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  width: 250px;
+  border: 2px solid rgb(var(--purple));
+  background: transparent;
+}
+
+.search-box:focus {
+  outline: 2px solid rgb(var(--purple));
+}
